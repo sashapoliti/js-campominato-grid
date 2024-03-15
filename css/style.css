@@ -69,3 +69,10 @@ footer {
     height: 50px;
     background-color: #1FA7C4; 
 }
+footer a {
+    color: white;
+}
+footer a:hover {
+    color: #4B2786;
+    transition-duration: 0.2s;
+}
