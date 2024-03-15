@@ -11,8 +11,15 @@ const fieldElement = document.getElementById('field');
 playButton.addEventListener('click', function() {
     fieldElement.innerHTML = ''; //reset the field
     for (let i = 0; i < 100; i++) {
-        const boxElement = createBox(i);
+        const boxElement = createBox(i + 1);
         //console.log(boxElement);
         fieldElement.appendChild(boxElement);
+
+        //box clickable
+        boxElement.addEventListener('click', function() {
+            boxElement.classList.add('active');
+            console.log(i + 1);
+        })
     }
 })
+
