@@ -30,3 +30,9 @@ main>div#field .box {
 main>div#field .box.active {
     background-color: #9A0FC1;
 }
+main>div#field .box.medium {
+    width: calc(100% / 9);
+}
+main>div#field .box.hard {
+    width: calc(100% / 7);
+}

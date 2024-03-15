@@ -18,9 +18,14 @@
     <title>Campo Minato</title>
   </head>
   <body>
-    <div class="wrapper">
+    <div class="wrapper d-flex flex-column justify-content-between ">
       <!-- header -->
-      <header>
+      <header class="d-flex ">
+        <select id="mode" class="form-select">
+          <option selected value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
         <button class="btn btn-primary ">Play</button>
 
       </header>
