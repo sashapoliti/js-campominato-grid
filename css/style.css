@@ -54,6 +54,10 @@ main>div#field .box {
     border: 2px solid  #4B2786;
     cursor: crosshair;
 }
+main>div#field .box:hover {
+    background-color: #829AFF;    
+    transition-duration: 0.3s;
+}
 main>div#field .box.active {
     background-color: #9A0FC1;
 }
