@@ -39,7 +39,7 @@ playButton.addEventListener('click', function() {
                 console.log(i + 1);
             })
         }  
-    } else {
+    } else /* if mode === easy */ {
         for (let i = 0; i < 100; i++) {
             const boxElement = createBox(i + 1);
             //console.log(boxElement);

@@ -9,6 +9,33 @@ body {
    height: 100vh;
 }
 
+/* header */
+header {
+    height: 120px;
+    background-color: #1FA7C4;
+}
+header>div.container {
+    max-width: 900px;
+}
+header img {
+    height: 80px;
+}
+header button {
+    background-color: #6034a7;
+    color: #829AFF;
+    padding: 5px 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+header #mode {
+    padding: 6px 20px 6px 0;
+    font-size: 1.2rem;
+}
+header button:hover {
+    color: white;
+    transition-duration: 0.2s;
+}
+
 /* main */
 main>div#field {
     width: 70%;
@@ -35,4 +62,10 @@ main>div#field .box.medium {
 }
 main>div#field .box.hard {
     width: calc(100% / 7);
+}
+
+/* footer */
+footer {
+    height: 50px;
+    background-color: #1FA7C4; 
 }

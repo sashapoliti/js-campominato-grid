@@ -20,14 +20,18 @@
   <body>
     <div class="wrapper d-flex flex-column justify-content-between ">
       <!-- header -->
-      <header class="d-flex ">
-        <select id="mode" class="form-select">
-          <option selected value="easy">Easy</option>
-          <option value="medium">Medium</option>
-          <option value="hard">Hard</option>
-        </select>
-        <button class="btn btn-primary ">Play</button>
-
+      <header class="container-fluid  d-flex align-items-center ">
+        <div class="container d-flex justify-content-between ">
+          <img src="https://image.api.playstation.com/vulcan/ap/rnd/202211/0911/m5Klg4WKB3FYzmXLc0jmk9iB.png" alt="Logo">
+          <div class=" d-flex align-items-center flex-wrap-reverse ">
+            <select id="mode" class="me-4">
+              <option selected value="easy"><i class="fa-solid fa-wand-sparkles"></i> Easy</option>
+              <option value="medium"><i class="fa-solid fa-gavel"></i> Medium</option>
+              <option value="hard"><i class="fa-solid fa-skull-crossbones"></i> Hard</option>
+            </select>
+            <button><i class="fa-solid fa-gamepad me-2 "></i> Play</button>
+          </div>
+        </div>
       </header>
 
       <!-- main -->
