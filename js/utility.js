@@ -1,5 +1,6 @@
-function createBox() {
+function createBox(content) {
   const box = document.createElement('div');
+  box.innerHTML = `<span>${content}</span>`;
   box.classList.add('box');
   return box;
 }

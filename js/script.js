@@ -11,7 +11,7 @@ const fieldElement = document.getElementById('field');
 playButton.addEventListener('click', function() {
     fieldElement.innerHTML = ''; //reset the field
     for (let i = 0; i < 100; i++) {
-        const boxElement = createBox();
+        const boxElement = createBox(i);
         //console.log(boxElement);
         fieldElement.appendChild(boxElement);
     }
