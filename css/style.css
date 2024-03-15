@@ -15,5 +15,12 @@ main>div#field {
     max-width: 700px;
     aspect-ratio: 1 / 1;
     margin: 0 auto;
+    padding: 2px;
     border: 10px solid #4D39AC;
+}
+main>div#field .box {
+    width: calc(100% / 10);
+    aspect-ratio: 1 / 1;
+    background-color: #36ADF9;
+    border: 2px solid  #4B2786;
 }

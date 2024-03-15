@@ -1,4 +1,4 @@
-function createBoxElement() {
+function createBox() {
   const box = document.createElement('div');
   box.classList.add('box');
   return box;
